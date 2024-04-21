@@ -1,0 +1,58 @@
+/* LikedSongs component CSS */
+.liked-songs-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel-liked {
+    flex: 0 0 250px;
+    background-color: #1e1e1e;
+  }
+  
+  .song-list-container-liked {
+    flex: 0 0 300px;
+    background-color: #121212;
+    overflow-y: auto;
+  }
+  
+  .song-buttons-liked {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .song-container-liked {
+    padding: 10px;
+  }
+  
+  .song-button-liked {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  .song-button-liked:hover {
+    background-color: #282828;
+  }
+  
+  .selected-component-container-liked {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+  }
+  
+  .selected-component-liked {
+    width: 80%;
+  }
+  
+  /* M component CSS */
+  /* Style your M component according to your design */
+  

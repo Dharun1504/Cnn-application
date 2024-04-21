@@ -1,0 +1,106 @@
+
+.audio-player-container {
+  display: flex;
+  height: 100vh;
+  padding-top: 60px;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.song-list-container {
+  
+  flex: 0 0 300px;
+  background-color: #121212;
+  color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.song-buttons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Song button */
+.song-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.song-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 80%;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.song-button:hover {
+  background-color: #282828;
+}
+
+/* Like button */
+.like-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.liked {
+  color: #1db954;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+.pagination button.active {
+  background-color: #1db954;
+  border-radius: 5px;
+}
+
+/* Selected component container */
+.selected-component-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.selected-component {
+  width: 80%;
+}
